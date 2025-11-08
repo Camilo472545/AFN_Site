@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <!-- Substituir CSS inline por arquivo externo -->
+<link rel="stylesheet" href="styles.min.css">
+<!-- Adicionar preload crítico -->
+<link rel="preload" href="styles.min.css" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<!-- Adicionar preload para fonts críticas -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" as="style">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    
+    <title>Energia que move seu negócio com segurança e confiança</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+       
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="foto_serviço/Logo_tipo.png" alt="AFN Instalações Elétricas" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#mission" class="nav-link">Missão & Valores</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#clients" class="nav-link">Clientes</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                    <li class="nav-item"><a href="#budget" class="nav-link">Orçamento</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                    <!-- Adicionar atributos ARIA -->
+                <nav aria-label="Navegação principal">
+                <button aria-label="Abrir menu" class="hamburger">
+                
+                <!--<button class="hamburger">-->
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section com Carrossel -->
+    <section id="home" class="hero">
+        <div class="hero-carousel">
+            <div class="carousel-slides">
+                <div class="carousel-slide active" style="background-image: url('foto_serviço/resi1.JPG')"></div>
+                <div class="carousel-slide" style="background-image: url('foto_serviço/estrutura.jpg')"></div>
+                <div class="carousel-slide" style="background-image: url('foto_serviço/reforma1.jpg')"></div>
+                <div class="carousel-slide" style="background-image: url('foto_serviço/hidro.png')"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    <span>E</span><span>n</span><span>e</span><span>r</span><span>g</span><span>i</span><span>a</span>
+                    <span>q</span><span>u</span><span>e</span>
+                    <span>m</span><span>o</span><span>v</span><span>e </span>
+                    <span>s</span><span>e</span><span>u </span>
+                    <span>n</span><span>e</span><span>g</span><span>ó</span><span>c</span><span>i</span><span>o</span>
+                    <span>c</span><span>o</span><span>m</span>
+                    <span>s</span><span>e</span><span>g</span><span>u</span><span>r</span><span>a</span><span>n</span><span>ç</span><span>a</span>
+                    <span>e</span>
+                    <span>c</span><span>o</span><span>n</span><span>f</span><span>i</span><span>a</span><span>n</span><span>ç</span><span>a</span>
+                </h1>
+                <p></p>        <div class="hero-buttons">
+                    <a href="#contact" class="btn">Solicitar Orçamento</a>
+                    <a href="#services" class="btn btn-primary">Nossos Serviços</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controles do Carrossel -->
+        <div class="carousel-controls">
+            <button class="carousel-nav-btn prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel-indicators-container">
+                <div class="carousel-indicator active"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+            </div>
+            <button class="carousel-nav-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre a Empresa</h2>
+                <p>Conheça nossa trajetória e compromisso com a qualidade</p>
+                <p>Mais de 10 anos de experiência em instalações elétricas prediais, comerciais e residenciais com foco em segurança e qualidade.</p>
+        
+            </div>
+
+            <!-- EXEMPLO DE IMPLEMENTAÇÃO -->
+      <div class="expandable-text">
+    <p class="text-short">Mais do que fios e conexões, acreditamos que energia é o que impulsiona o progresso... 
+        <span class="expand-btn">Ver mais</span></p>
+    
+    <p class="text-full" style="display: none;">
+        Desde 2010, a AFN Instalações Elétricas entrega soluções completas e personalizadas para quem busca segurança, inovação e tranquilidade. Somos movidos por compromisso, experiência e resultados reais, atuando em obras residenciais, comerciais e corporativas. Nosso propósito: garantir que cada projeto entregue eficiência, conforto e confiança.
+    </p><br><br>
+</div>
+    </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="typing-container">
+                        <span class="typing-line"></span>
+                        <span class="typing-line"></span>
+                        <span class="typing-line"></span>
+                        <span class="typing-line"></span>
+                        
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Segurança</h3>
+                                <p> Serviços executados com os mais altos padrões.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Qualidade</h3>
+                                <p>Excelência garantida em cada projeto.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Equipe Qualificada</h3>
+                                <p>Profissionais experientes e certificados.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Pontualidade</h3>
+                                <p> Entregas dentro do prazo combinado.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="about-image">
+                    <img src="foto_serviço/ilumina1.JPG" alt="Equipe AFN">
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Adicione este código APÓS a div .about-features e ANTES do .about-image -->
+            <div class="about-cta">
+                 <a href="#contact" class="btn btn-primary">Solicitar Orçamento</a>
+             </div>
+
+    <!-- Missão, Visão e Valores -->
+    <section id="mission" class="mission-vision">
+        <div class="container">
+            <div class="section-title">
+                <h2>Missão, Visão e Valores</h2>
+                <p>Os princípios que norteiam nosso trabalho</p>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel-nav">
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="carousel">
+                    <div class="mv-card active">
+                        <div class="mv-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Missão</h3>
+                        <p>Fornecer soluções em instalações elétricas com excelência, segurança e qualidade, superando as expectativas dos nossos clientes e contribuindo para o desenvolvimento sustentável.</p>
+                    </div>
+                    <div class="mv-card">
+                        <div class="mv-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Visão</h3>
+                        <p>Ser reconhecida como referência no mercado de instalações elétricas, destacando-se pela qualidade dos serviços, inovação tecnológica e compromisso com a satisfação do cliente.</p>
+                    </div>
+                    <div class="mv-card">
+                        <div class="mv-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Valores</h3>
+                        <div class="values-list">
+                            <div class="value-item">
+                                <i class="fas fa-check"></i>
+                                <span>Qualidade e Excelência</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-check"></i>
+                                <span>Segurança em primeiro lugar</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-check"></i>
+                                <span>Compromisso com prazos</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-check"></i>
+                                <span>Inovação e Tecnologia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <div class="indicator active"></div>
+                    <div class="indicator"></div>
+                    <div class="indicator"></div>
+                </div>
+            </div>
+            <div id="particles" class="particles"></div>
+        </div>
+    </section>
+        
+    <!-- Serviços -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Conheça todos os serviços que oferecemos com qualidade e segurança</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Energia Solar</h3>
+                        <p>Instalação de sistemas fotovoltaicos para residências e empresas.</p>
+                        <a href="index5.html" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Manutenção Preventiva</h3>
+                        <p>Evite falhas com inspeções regulares e corretivas.</p>
+                        <a href="#contact" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Projetos Elétricos</h3>
+                        <p>Planejamento completo para obras residenciais e comerciais.</p>
+                        <a href="#contact" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Quadros de Distribuição</h3>
+                        <p>Montagem e instalação com total segurança.</p>
+                        <a href="#contact" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Automação Residencial</h3>
+                        <p> Conforto e economia com tecnologia inteligente.</p>
+                        <a href="#contact" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Sustentabilidade</h3>
+                        <p>Soluções elétricas inteligentes para reduzir sua conta de luz e seu impacto no planeta.
+</p>
+                        <a href="#contact" class="btn">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Clientes</h2>
+                <p>Empresas e parceiros que confiam em nosso trabalho.</p>
+            </div>
+            <div class="clients-grid">
+                <div class="client-logo">
+                    <span>Construtora Alpha</span>
+                </div>
+                <div class="client-logo">
+                    <span>Comércio Beta</span>
+                </div>
+                <div class="client-logo">
+                    <span>Indústria Gama</span>
+                </div>
+                <div class="client-logo">
+                    <span>Empresa Delta</span>
+                </div>
+                <div class="client-logo">
+                    <span>Grupo Épsilon</span>
+                </div>
+                <div class="client-logo">
+                    <span>Companhia Zeta</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio - ATUALIZADO COM CARROSSEL -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nosso Portfólio</h2>
+                <p>Veja alguns dos projetos que realizamos com qualidade e dedicação.</p>
+            </div>
+            
+            <!-- Carrossel do Portfólio -->
+            <div class="portfolio-carousel-container">
+                <div class="portfolio-carousel">
+                    <!-- Slide 1 -->
+                    <div class="portfolio-slide active">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/hidro.png" alt="Elétrica e Hidráulica">
+                            <div class="portfolio-info">
+                                <h3>Montagem hidráulica e elétrica</h3>
+                                <p>Praça das bandeiras Barueri - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/medicao.PNG" alt="Centro de medições">
+                            <div class="portfolio-info">
+                                <h3>Centro de medições</h3>
+                                <p>Praça das Bandeiras-Barueri SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/canteiro1.JPG" alt="Canteiro Obras">
+                            <div class="portfolio-info">
+                                <h3>Canteiro de obra </h3>
+                                <p>Itapevi SP </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/resi1.png" alt="Projeto Residencial">
+                            <div class="portfolio-info">
+                                <h3>Instalação de luminárias</h3>
+                                <p>Tamboré 10 - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 5 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/estrutura.jpg" alt="Instalações Iluminárias">
+                            <div class="portfolio-info">
+                                <h3>Instalações de iluminarias</h3>
+                                <p>Jaguariúna - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 6 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/reforma1.jpg" alt="Tubulação">
+                            <div class="portfolio-info">
+                                <h3>Tubulação em laje </h3>
+                                <p>Alphaville Residencial 12 - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+
+                    <!-- Slide 7 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/canteiroilumina.JPG" alt="Sistema Hidráulico">
+                            <div class="portfolio-info">
+                                <h3> Instalação de Luminária</h3>
+                                <p>Quaresmeira - Green Ville SP</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <!-- Slide 8 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/força3.png" alt="Quadro de bomba">
+                            <div class="portfolio-info">
+                                <h3>Quadro de bomba de recalque</h3>
+                                <p>JD. Mundo Novo  - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <!-- Slide 9 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/foto1.jpg" alt="Projeto Comercial">
+                            <div class="portfolio-info">
+                                <h3> Hospital Obra andamento</h3>
+                                <p>Itapevi - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 10 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/Sala1.jpg" alt=" Instalação Leito">
+                            <div class="portfolio-info">
+                                <h3>Leito de observação</h3>
+                                <p> Itapevi - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 11 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/ilumina1.JPG" alt="Projeto Comercial">
+                            <div class="portfolio-info">
+                                <h3>Infraestrutura para a iluminação</h3>
+                                <p>shopping - Granja Vianna  SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 12 -->
+                    <div class="portfolio-slide">
+                        <div class="portfolio-item">
+                            <img src="foto_serviço/ilumina.JPG" alt=" Iluminação Shopping">
+                            <div class="portfolio-info">
+                                <h3>Loja Gregory</h3>
+                                <p>Shopping Ibirapuera - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Controles do Carrossel -->
+            <div class="portfolio-controls">
+                <button class="portfolio-nav-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="portfolio-indicators">
+                    <div class="portfolio-indicator active" data-index="0"></div>
+                    <div class="portfolio-indicator" data-index="1"></div>
+                    <div class="portfolio-indicator" data-index="2"></div>
+                    <div class="portfolio-indicator" data-index="3"></div>
+                </div>
+                <button class="portfolio-nav-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Orçamento -->
+    <section id="budget" class="budget">
+        <div class="container">
+            <div class="section-title">
+                <h2>Peça Seu Orçamento</h2>
+                <p></p>
+            </div>
+            <div class="budget-content">
+                <p>Temos a solução ideal para suas necessidades, do pequeno reparo ao grande projeto.</p>
+                <p></p>
+                <a href="#contact" class="btn">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Entre em contato para tirar dúvidas ou agendar uma visita técnica.<br>Garantimos qualidade, segurança e o melhor custo-benefício.<br> 
+               <br> Estamos à disposição! </p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Endereço</h3>
+                        <p>Rua Itupeva, 87 - Cotia São Paulo - SP <br> CEP 06716-230</p>
+                    </div> - 
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <h3>Telefone</h3>
+                        <p>(11) 95569-2544  </p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>E-mail</h3>
+                        <p>adalto@afninstalacoeseletricas.com.br</p>
+                        <!--<p class="email-address">adalto@afninstalacoeseletricas.com.br</p>-->
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    
+                    <div>
+                        <h3>Site</h3>
+                           <p>afninstalacoeseletricas.com.br</p>                     
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="Seu Telefone" required pattern="[0-9]{10,11}" inputmode="numeric">
+                    </div>
+
+                    <!-- Adicionar atributos mobile -->
+
+                    <div class="form-group">
+                        <select class="form-control" required>
+                            <option value="" disabled selected>Selecione o Serviço</option>
+                            <option value="instalacao">Instalação Elétrica</option>
+                            <option value="manutencao">Manutenção</option>
+                            <option value="projeto">Projeto Elétrico</option>
+                            <option value="solar">Energia Solar</option>
+                            <option value="automacao">Automação</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section><br>
+
+    <!-- Footer -->
+
+    <!-- Melhorar contraste -->
+    <!--<footer style="background-color: #2c3e50; color: #ecf0f1;"></footer>-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="foto_serviço/Logo_tipo.png" alt="AFN Instalações Elétricas" class="footer-logo-img">
+                    <p>Especialistas em Instalações Elétricas</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/people/Afn-instala%C3%A7%C3%B5es-el%C3%A9trica/100068759824578/?rdid=mP2D2u3dC79hX5WF&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GzB1BpZBs%2F" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/afninstalacoes/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/adalto-feitosa-8600229b/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AFN Instalações Elétricas. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <div id="whatsapp-float">
+        <a href="#" class="whatsapp-float-btn" id="whatsapp-trigger">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    
+    <!-- Janela WhatsApp -->
+    <div id="whatsapp-window">
+        <div class="whatsapp-header">
+            <div class="whatsapp-avatar">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="whatsapp-info">
+                <h3>AFN Instalações</h3>
+                <p>Online • Geralmente responde em minutos</p>
+            </div>
+            <button class="whatsapp-close" id="whatsapp-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="whatsapp-body">
+            <div class="whatsapp-message">
+                Olá! 👋 Como podemos ajudar você hoje? Escolha uma das opções abaixo para iniciar uma conversa.
+            </div>
+            <div class="whatsapp-options">
+                <div class="whatsapp-option" data-service="Orçamento">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Solicitar Orçamento</span>
+                </div>
+                <div class="whatsapp-option" data-service="Informações">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Mais Informações</span>
+                </div>
+                <div class="whatsapp-option" data-service="Suporte">
+                    <i class="fas fa-headset"></i>
+                    <span>Suporte Técnico</span>
+                </div>
+                <div class="whatsapp-option" data-service="Emergência">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>Serviço de Emergência</span>
+                </div>
+            </div>
+        </div>
+        <div class="whatsapp-footer">
+            <p></p>
+        </div>
+    </div>
+
+    <script>
+        // Menu Mobile
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Fechar menu ao clicar em um link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+            this.reset();
+        });
+        
+        // Smooth scroll para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animação de entrada para elementos ao rolar a página
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.feature, .about-image, .service-card, .client-logo, .portfolio-slide, .budget-content, .contact-item, .contact-form');
+            
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('animated');
+                }
+            });
+        };
+
+        // Adicionar evento de scroll
+        window.addEventListener('scroll', animateOnScroll);
+        
+        // Executar uma vez no carregamento
+        animateOnScroll();
+
+        // CARROSSEL DO HERO SECTION
+        const heroSlides = document.querySelectorAll('.carousel-slide');
+        const heroIndicators = document.querySelectorAll('.carousel-indicator');
+        const prevHeroBtn = document.querySelector('.hero .prev-btn');
+        const nextHeroBtn = document.querySelector('.hero .next-btn');
+        let currentHeroSlide = 0;
+        let heroInterval;
+
+        // Função para mudar slide do hero
+        function goToHeroSlide(slideIndex) {
+            // Remove a classe active de todos os slides e indicadores
+            heroSlides.forEach(slide => slide.classList.remove('active'));
+            heroIndicators.forEach(indicator => indicator.classList.remove('active'));
+            
+            // Adiciona a classe active ao slide e indicador atual
+            heroSlides[slideIndex].classList.add('active');
+            heroIndicators[slideIndex].classList.add('active');
+            
+            currentHeroSlide = slideIndex;
+        }
+
+        // Função para próximo slide do hero
+        function nextHeroSlide() {
+            let nextSlide = (currentHeroSlide + 1) % heroSlides.length;
+            goToHeroSlide(nextSlide);
+        }
+
+        // Função para slide anterior do hero
+        function prevHeroSlide() {
+            let prevSlide = (currentHeroSlide - 1 + heroSlides.length) % heroSlides.length;
+            goToHeroSlide(prevSlide);
+        }
+
+        // Adicionar eventos aos indicadores do hero
+        heroIndicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                resetHeroInterval();
+                goToHeroSlide(index);
+            });
+        });
+
+        // Adicionar eventos aos botões de navegação do hero
+        prevHeroBtn.addEventListener('click', () => {
+            resetHeroInterval();
+            prevHeroSlide();
+        });
+
+        nextHeroBtn.addEventListener('click', () => {
+            resetHeroInterval();
+            nextHeroSlide();
+        });
+
+        // Reiniciar o intervalo do hero
+        function resetHeroInterval() {
+            clearInterval(heroInterval);
+            heroInterval = setInterval(nextHeroSlide, 5000);
+        }
+
+        // Iniciar auto-slide do hero
+        heroInterval = setInterval(nextHeroSlide, 5000);
+
+        // CARROSSEL COMPACTO - JavaScript (Missão, Visão e Valores)
+        const carousel = document.querySelector('.carousel');
+        const indicators = document.querySelectorAll('.indicator');
+        const cards = document.querySelectorAll('.mv-card');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+        let currentSlide = 0;
+        const slideCount = cards.length;
+        let autoSlideInterval;
+
+        // Função para mudar slide
+        function goToSlide(slideIndex) {
+            currentSlide = slideIndex;
+            carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+            
+            // Atualizar indicadores
+            indicators.forEach((indicator, index) => {
+                if (index === slideIndex) {
+                    indicator.classList.add('active');
+                } else {
+                    indicator.classList.remove('active');
+                }
+            });
+            
+            // Atualizar cards
+            cards.forEach((card, index) => {
+                if (index === slideIndex) {
+                    card.classList.add('active');
+                } else {
+                    card.classList.remove('active');
+                }
+            });
+        }
+
+        // Função para próximo slide
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slideCount;
+            goToSlide(currentSlide);
+        }
+
+        // Função para slide anterior
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slideCount) % slideCount;
+            goToSlide(currentSlide);
+        }
+
+        // Adicionar eventos aos indicadores
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                resetAutoSlide();
+                goToSlide(index);
+            });
+        });
+
+        // Adicionar eventos aos botões de navegação
+        prevBtn.addEventListener('click', () => {
+            resetAutoSlide();
+            prevSlide();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            resetAutoSlide();
+            nextSlide();
+        });
+
+        // Reiniciar o auto-slide
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            autoSlideInterval = setInterval(nextSlide, 5000);
+        }
+
+        // Iniciar auto-slide
+        autoSlideInterval = setInterval(nextSlide, 5000);
+
+        // CARROSSEL DO PORTFÓLIO
+        const portfolioCarousel = document.querySelector('.portfolio-carousel');
+        const portfolioSlides = document.querySelectorAll('.portfolio-slide');
+        const portfolioIndicators = document.querySelectorAll('.portfolio-indicator');
+        const portfolioPrevBtn = document.querySelector('.portfolio .prev-btn');
+        const portfolioNextBtn = document.querySelector('.portfolio .next-btn');
+        let portfolioCurrentIndex = 0;
+        // Substituir no código existente
+        let slidesToShow = getSlidesToShow();
+
+        function getSlidesToShow() {
+        const width = window.innerWidth;
+        if (width < 480) return 1;
+        if (width < 768) return 1;
+        if (width < 992) return 2;
+        return 3;
+}
+
+// Adicionar tratamento de erro
+function safeUpdatePortfolioCarousel() {
+    try {
+        updatePortfolioCarousel();
+    } catch (error) {
+        console.error('Erro no carrossel:', error);
+        // Fallback: mostrar primeiro slide
+        portfolioCurrentIndex = 0;
+        updatePortfolioCarousel();
+    }
+}
+
+// Atualizar no redimensionamento
+        window.addEventListener('resize', () => {
+        slidesToShow = getSlidesToShow();
+        updatePortfolioCarousel();
+});
+
+
+        function updatePortfolioCarousel() {
+            // Calculate the transform value based on current index
+            const translateX = -(portfolioCurrentIndex * (100 / slidesToShow));
+            portfolioCarousel.style.transform = `translateX(${translateX}%)`;
+            
+            // Update active states
+            portfolioSlides.forEach(slide => slide.classList.remove('active'));
+            
+            // Set active state for visible slides
+            for (let i = portfolioCurrentIndex; i < portfolioCurrentIndex + slidesToShow && i < portfolioSlides.length; i++) {
+                portfolioSlides[i].classList.add('active');
+            }
+            
+            // Update indicators
+            portfolioIndicators.forEach(indicator => indicator.classList.remove('active'));
+            const indicatorIndex = Math.floor(portfolioCurrentIndex / slidesToShow);
+            if (portfolioIndicators[indicatorIndex]) {
+                portfolioIndicators[indicatorIndex].classList.add('active');
+            }
+        }
+
+        portfolioNextBtn.addEventListener('click', () => {
+            if (portfolioCurrentIndex + slidesToShow < portfolioSlides.length) {
+                portfolioCurrentIndex += slidesToShow;
+            } else {
+                portfolioCurrentIndex = 0;
+            }
+            updatePortfolioCarousel();
+        });
+
+        portfolioPrevBtn.addEventListener('click', () => {
+            if (portfolioCurrentIndex - slidesToShow >= 0) {
+                portfolioCurrentIndex -= slidesToShow;
+            } else {
+                // Go to the last set of slides
+                const lastIndex = Math.floor((portfolioSlides.length - 1) / slidesToShow) * slidesToShow;
+                portfolioCurrentIndex = lastIndex;
+            }
+            updatePortfolioCarousel();
+        });
+
+        portfolioIndicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                portfolioCurrentIndex = index * slidesToShow;
+                updatePortfolioCarousel();
+            });
+        });
+
+        // Initialize portfolio carousel
+        updatePortfolioCarousel();
+        
+        // Auto-advance portfolio carousel
+        let portfolioInterval = setInterval(() => {
+            if (portfolioCurrentIndex + slidesToShow < portfolioSlides.length) {
+                portfolioCurrentIndex += slidesToShow;
+            } else {
+                portfolioCurrentIndex = 0;
+            }
+            updatePortfolioCarousel();
+        }, 3000);
+
+        // Pause auto-advance on hover
+        const portfolioContainer = document.querySelector('.portfolio-carousel-container');
+        portfolioContainer.addEventListener('mouseenter', () => {
+            clearInterval(portfolioInterval);
+        });
+        
+        portfolioContainer.addEventListener('mouseleave', () => {
+            portfolioInterval = setInterval(() => {
+                if (portfolioCurrentIndex + slidesToShow < portfolioSlides.length) {
+                    portfolioCurrentIndex += slidesToShow;
+                } else {
+                    portfolioCurrentIndex = 0;
+                }
+                updatePortfolioCarousel();
+            }, 6000);
+        });
+
+        // Criar partículas de fundo
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 12;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                // Tamanho aleatório
+                const size = Math.random() * 15 + 3;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // Posição aleatória
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.top = `${Math.random() * 100}%`;
+                
+                // Atraso de animação aleatório
+                particle.style.animationDelay = `${Math.random() * 20}s`;
+                
+                // Duração de animação aleatória
+                particle.style.animationDuration = `${Math.random() * 10 + 20}s`;
+                
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Inicializar partículas
+        createParticles();
+
+        // Efeito de piscar alternado nos cards de clientes
+        function startBlinkingEffect() {
+            const clientLogos = document.querySelectorAll('.client-logo');
+            
+            // Alterna entre os efeitos a cada 3 segundos
+            setInterval(() => {
+                clientLogos.forEach(logo => {
+                    if (logo.classList.contains('pulse')) {
+                        logo.classList.remove('pulse');
+                        logo.classList.add('glow');
+                    } else {
+                        logo.classList.remove('glow');
+                        logo.classList.add('pulse');
+                    }
+                });
+            }, 3000);
+        }
+
+        // Inicia o efeito de piscar quando a seção de clientes entra na viewport
+        const clientsSection = document.getElementById('clients');
+        const clientsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    startBlinkingEffect();
+                    clientsObserver.unobserve(clientsSection);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        clientsObserver.observe(clientsSection);
+
+        // EFEITO DE DIGITAÇÃO POR LINHA
+        function startTypingEffect() {
+            const typingLines = document.querySelectorAll('.typing-line');
+            
+            typingLines.forEach(line => {
+                line.classList.add('animate');
+            });
+        }
+
+        // Inicia o efeito de digitação quando a seção sobre entra na viewport
+        const aboutSection = document.getElementById('about');
+        const aboutObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    startTypingEffect();
+                    aboutObserver.unobserve(aboutSection);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        aboutObserver.observe(aboutSection);
+
+        // Efeito de rolagem para o botão do WhatsApp
+        window.addEventListener('scroll', () => {
+            const whatsappFloat = document.getElementById('whatsapp-float');
+            
+            // Adiciona uma leve animação quando o usuário rola para baixo
+            if (window.scrollY > 300) {
+                whatsappFloat.style.transform = 'translateY(0)';
+                whatsappFloat.style.opacity = '1';
+            } else {
+                whatsappFloat.style.transform = 'translateY(100px)';
+                whatsappFloat.style.opacity = '0.7';
+            }
+        });
+
+        // Inicializar o botão do WhatsApp
+        window.addEventListener('load', () => {
+            const whatsappFloat = document.getElementById('whatsapp-float');
+            whatsappFloat.style.transform = 'translateY(0)';
+            whatsappFloat.style.opacity = '1';
+        });
+
+        // Janela WhatsApp
+        const whatsappTrigger = document.getElementById('whatsapp-trigger');
+        const whatsappWindow = document.getElementById('whatsapp-window');
+        const whatsappClose = document.getElementById('whatsapp-close');
+        const whatsappOptions = document.querySelectorAll('.whatsapp-option');
+        
+        // Abrir janela WhatsApp
+        whatsappTrigger.addEventListener('click', function(e) {
+            e.preventDefault();
+            whatsappWindow.classList.add('active');
+        });
+        
+        // Fechar janela WhatsApp
+        whatsappClose.addEventListener('click', function() {
+            whatsappWindow.classList.remove('active');
+        });
+        
+        // Fechar janela ao clicar fora
+        document.addEventListener('click', function(e) {
+            if (!whatsappWindow.contains(e.target) && !whatsappTrigger.contains(e.target)) {
+                whatsappWindow.classList.remove('active');
+            }
+        });
+        
+        // Opções de serviço
+        whatsappOptions.forEach(option => {
+            option.addEventListener('click', function() {
+                const service = this.getAttribute('data-service');
+                const phoneNumber = "5511955692544";
+                let message = "";
+                
+                switch(service) {
+                    case "Orçamento":
+                        message = "Olá! Gostaria de solicitar um orçamento para serviços elétricos.";
+                        break;
+                    case "Informações":
+                        message = "Olá! Gostaria de obter mais informações sobre os serviços da AFN.";
+                        break;
+                    case "Suporte":
+                        message = "Olá! Preciso de suporte técnico para um problema elétrico.";
+                        break;
+                    case "Emergência":
+                        message = "URGENTE! Preciso de um serviço de emergência elétrica.";
+                        break;
+                    default:
+                        message = "Olá! Gostaria de mais informações sobre os serviços da AFN.";
+                }
+                
+                // Codificar a mensagem para URL
+                const encodedMessage = encodeURIComponent(message);
+                
+                // Redirecionar para WhatsApp
+                window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`, '_blank');
+                
+                // Fechar a janela
+                whatsappWindow.classList.remove('active');
+            });
+        });
+        // JavaScript para expandir texto
+    document.querySelectorAll('.expand-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+         e.preventDefault();
+        const container = this.closest('.expandable-text');
+        const short = container.querySelector('.text-short');
+        const full = container.querySelector('.text-full');
+        
+        short.style.display = 'none';
+        full.style.display = 'block';
+         // Scroll suave para o texto expandido
+        full.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+});
+
+// OTIMIZAÇÃO DO CARROSSEL PARA MOBILE
+function optimizeForMobile() {
+    const isMobile = window.innerWidth < 768;
+    
+    if (isMobile) {
+        // Ajustar número de slides visíveis
+        window.slidesToShow = 1;
+        
+        // Parar auto-rotate em mobile para economizar bateria
+        clearInterval(portfolioInterval);
+        clearInterval(heroInterval);
+        clearInterval(autoSlideInterval);
+    }
+}
+
+// Executar na carga e no redimensionamento
+window.addEventListener('load', optimizeForMobile);
+window.addEventListener('resize', optimizeForMobile);
+
+// Adicionar feedback tátil
+if ('vibrate' in navigator) {
+  document.querySelectorAll('.btn, .nav-link').forEach(element => {
+    element.addEventListener('touchstart', () => {
+      navigator.vibrate(10);
+    });
+  });
+}
+// Carregar Font Awesome apenas quando necessário
+if (window.innerWidth > 768) {
+  const fa = document.createElement('link');
+  fa.rel = 'stylesheet';
+  fa.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+  document.head.appendChild(fa);
+}
+    
+
+    </script>
+</body>
+</html>
